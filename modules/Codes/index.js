@@ -1,20 +1,20 @@
 
 const errorCodes = {
-    INVALID_SYNTAX: 1,
+    UNKNOWN: 0,
+    SYNTAX: 1,
     TOO_LONG: 2,
     TOO_SHORT: 3,
-    TYPE_MISMATCH: 4,
-    MISSING_REQUIRED: 5,
-    UNKNOWN: 6
+    TYPE: 4,
+    MISSING: 5,
 }
 
 errorDescriptions = {
+    0: ["Unknown", "You put something in that is wrong :)"],
     1: ["Invalid Syntax.", "You put something in that is wrong :)"],
     2: ["Too Long.", "You put something in that is wrong :)"],
     3: ["Too Short.", "You put something in that is wrong :)"],
     4: ["Type Mismatch.", "You put something in that is wrong :)"],
     5: ["Missing Required.", "You put something in that is wrong :)"],
-    6: ["Unknown", "You put something in that is wrong :)"]
 }
 
 

@@ -1,4 +1,15 @@
 const errorCodes = require("./modules/Codes");
-const {RequiredError} = require("./modules/RequiredError");
+const {ErrorMissing} = require("./modules/ErrorMissing");
+const {ErrorSyntax} = require("./modules/ErrorSyntax");
+const {ErrorTooLong} = require("./modules/ErrorTooLong");
+const {ErrorTooShort} = require("./modules/ErrorTooShort");
+const {ErrorType} = require("./modules/ErrorType");
 
-module.exports = {errorCodes, RequiredError}
+module.exports = {
+    errorCodes,
+    ErrorMissing,
+    ErrorSyntax,
+    ErrorTooLong,
+    ErrorTooShort,
+    ErrorType
+}

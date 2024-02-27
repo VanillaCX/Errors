@@ -11,6 +11,10 @@ class QuietError extends Error {
     }
 
     get verbose(){
+        return QuietError
+    }
+
+    static get verbose(){
         return description(this.code, true)
     }
 }

@@ -1,13 +1,13 @@
-const {RequiredError} = require("../index.js")
+const {ErrorMissing} = require("../index.js")
 
 
 
 const throwAnError = () => {
-    throw new RequiredError("Missing User Name")
+    throw new ErrorMissing("username")
 }
 
 
-
+console.log(ErrorMissing.code)
 
 
 
