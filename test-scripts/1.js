@@ -1,2 +1,19 @@
-console.log("test-script-1 running...");
-const {DefaultModule} = require("../index.js");
+const {RequiredError} = require("../index.js")
+
+
+
+const throwAnError = () => {
+    throw new RequiredError("Missing User Name")
+}
+
+
+
+
+
+
+try {
+    throwAnError();
+} catch(e) {
+    console.log(e)
+    
+}

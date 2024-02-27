@@ -1,3 +1,4 @@
-const {DefaultModule} = require("./modules/Default");
+const errorCodes = require("./modules/Codes");
+const {RequiredError} = require("./modules/RequiredError");
 
-module.exports = {DefaultModule}
+module.exports = {errorCodes, RequiredError}
