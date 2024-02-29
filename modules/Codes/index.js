@@ -6,6 +6,7 @@ const errorCodes = {
     TOO_SHORT: 3,
     TYPE: 4,
     MISSING: 5,
+    RESERVED: 6,
 }
 
 errorDescriptions = {
@@ -15,6 +16,7 @@ errorDescriptions = {
     3: ["Too Short.", "You put something in that is wrong :)"],
     4: ["Type Mismatch.", "You put something in that is wrong :)"],
     5: ["Missing Required.", "You put something in that is wrong :)"],
+    6: ["Reserved Word.", "You put something in that is wrong :)"],
 }
 
 

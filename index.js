@@ -4,6 +4,7 @@ const {ErrorSyntax} = require("./modules/ErrorSyntax");
 const {ErrorTooLong} = require("./modules/ErrorTooLong");
 const {ErrorTooShort} = require("./modules/ErrorTooShort");
 const {ErrorType} = require("./modules/ErrorType");
+const {ErrorReservedWord} = require("./modules/ErrorReservedWord");
 
 module.exports = {
     errorCodes,
@@ -11,5 +12,6 @@ module.exports = {
     ErrorSyntax,
     ErrorTooLong,
     ErrorTooShort,
-    ErrorType
+    ErrorType,
+    ErrorReservedWord
 }
